@@ -1,0 +1,9 @@
+{
+    "description": "Database Jalan",
+    "name": "codeigniter/framework",
+    "type": "project",
+    "require": {
+        "php": ">=5.3.7",
+        "vlucas/phpdotenv": "3.6"
+    }
+}
