@@ -1,7 +1,5 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-// require_once FCPATH."vendor\autoload.php";
-// Dotenv::load(__DIR__);
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -24,7 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = getenv('APP_URL');
+$config['base_url'] = 'http://localhost/website/database-jalan/';
 
 /*
 |--------------------------------------------------------------------------

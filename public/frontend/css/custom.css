@@ -1,0 +1,58 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+.bg_general {
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    background: linear-gradient(90deg, #BCA3C2, #F8F8FF, #87CEFA, #F8F8FF);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.img-logo {
+    height: 100%;
+    width: auto;
+}
+
+.img-overview {
+    height: 300px;
+    width: auto !important;
+    display: block;
+    margin: auto;
+}
+
+.tbl-center {
+    text-align: center !important;
+}
+
+
+/* 
+.image-custom {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.image-frame {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+} */

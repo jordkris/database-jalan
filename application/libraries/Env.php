@@ -9,7 +9,7 @@ class Env
 {
     public function __construct()
     {
-        $dotenv = Dotenv\Dotenv::create(FCPATH);
+        $dotenv = Dotenv\Dotenv::create(FCPATH.'public/');
         /**
          * If you are using vulcas/phpdotenv >= 4.x.x then use below code, and comment above line.
          *

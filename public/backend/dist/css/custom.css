@@ -1,0 +1,35 @@
+.bg_general {
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    background: linear-gradient(90deg, #BCA3C2, #F8F8FF, #87CEFA, #F8F8FF);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#product-background-color,
+#password1-eye,
+#password2-eye,
+#password3-eye,
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#img-logo {
+    width: auto;
+    max-height: 60px;
+}
+
+.tbl-center {
+    text-align: center;
+}
